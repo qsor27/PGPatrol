@@ -26,7 +26,7 @@ KICK_PAUSED_DIRECTPLAY = false
 # when the KICK_PAUSED* options above are true, the user has this many minutes to resume, otherwise kick
 KICK_PAUSED_GRACE_MINS = {{kickminutes.stdout}}
 # messages to be displayed for different kick types
-KICK_PAUSED_MESSAGE = User can pause a stream for only {{kickminutes.stdout}} minutes! Booted!
+KICK_PAUSED_MESSAGE = Stop Requesting TV/Movies from https://ombi.qplex.cachemyit.com so that it is autoomatically available and actually watch what you're playing! You've paused for {{kickminutes.stdout}} minutes. Please stop your stream next time :)
 KICK_TRANSCODE_MESSAGE = You are not allowed to transcode streams, use a better client!
 KICK_PLAYER_MESSAGE = You are not allowed to use this trash player. Use the official software from www.plex.tv/downloads -> Get An App!!!
 KICK_MULTI_IP_MESSAGE = You are not allowed to stream from more than 1 IP address!
